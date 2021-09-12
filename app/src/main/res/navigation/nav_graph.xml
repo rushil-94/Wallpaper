@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home">
+
+    <composable
+        android:id="@+id/home"
+        android:label="Home"
+        app:route="home"
+
+        />
+
+    <composable
+        android:id="@+id/topic"
+        android:label="Topic"
+        app:route="topic"
+        />
+
+    <composable
+        android:id="@+id/profile"
+        android:label="Profile"
+        app:route="profile"
+        />
+
+    <composable
+        android:id="@+id/search"
+        android:label="Search"
+        app:route="search"
+        />
+
+</navigation>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Wallpaper</string>
+    <string name="profile">profile</string>
+    <string name="topic">topic</string>
+    <string name="search">search</string>
+    <string name="home">home</string>
+</resources>
